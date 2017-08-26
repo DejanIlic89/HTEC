@@ -1957,3 +1957,98 @@
 2017-08-07 12:52:25,811 [main] INFO pages.conclusion.ConclusionPage - Driver has switched to iframe
 2017-08-07 12:52:25,897 [main] INFO pages.conclusion.ConclusionPage - Driver is get backed to default content
 2017-08-07 12:52:26,678 [main] INFO pages.conclusion.ConclusionPage - Voting type has chosen
+2017-08-26 04:39:43,798 [main] INFO setup.SetUp - Driver has initialized
+2017-08-26 04:39:45,104 [main] INFO setup.SetUp - Browser has maximized
+2017-08-26 04:39:49,422 [main] INFO SetUp - Log In page has opened
+2017-08-26 04:39:49,650 [main] INFO pages.LogInPage - Email has entered
+2017-08-26 04:39:49,742 [main] INFO pages.LogInPage - Password has entered
+2017-08-26 04:39:49,836 [main] INFO pages.LogInPage - LogIn has performed
+2017-08-26 04:39:49,874 [main] INFO new_topic.NewTopic - Home Page has opened
+2017-08-26 04:39:51,921 [main] INFO pages.HomePage - Group Page has opened
+2017-08-26 04:39:52,255 [main] INFO pages.group.GroupPage - Topic title has set
+2017-08-26 04:39:52,492 [main] INFO pages.group.GroupPage - Description has set
+2017-08-26 04:40:23,128 [main] INFO pages.HomePage - Arrow button has clicked
+2017-08-26 04:40:23,784 [main] INFO pages.HomePage - Log Out has performed
+2017-08-26 04:43:06,291 [main] INFO setup.SetUp - Driver has initialized
+2017-08-26 04:43:07,527 [main] INFO setup.SetUp - Browser has maximized
+2017-08-26 04:43:08,847 [main] INFO SetUp - Log In page has opened
+2017-08-26 04:43:09,117 [main] INFO pages.LogInPage - Email has entered
+2017-08-26 04:43:09,208 [main] INFO pages.LogInPage - Password has entered
+2017-08-26 04:43:09,301 [main] INFO pages.LogInPage - LogIn has performed
+2017-08-26 04:43:09,338 [main] INFO new_topic.NewTopic - Home Page has opened
+2017-08-26 04:43:11,288 [main] INFO pages.HomePage - Group Page has opened
+2017-08-26 04:43:11,624 [main] INFO pages.group.GroupPage - Topic title has set
+2017-08-26 04:43:11,869 [main] INFO pages.group.GroupPage - Description has set
+2017-08-26 04:43:22,409 [main] INFO pages.HomePage - Arrow button has clicked
+2017-08-26 04:43:23,061 [main] INFO pages.HomePage - Log Out has performed
+2017-08-26 04:46:39,728 [main] INFO setup.SetUp - Driver has initialized
+2017-08-26 04:46:41,006 [main] INFO setup.SetUp - Browser has maximized
+2017-08-26 04:46:42,451 [main] INFO SetUp - Log In page has opened
+2017-08-26 04:46:42,683 [main] INFO pages.LogInPage - Email has entered
+2017-08-26 04:46:42,776 [main] INFO pages.LogInPage - Password has entered
+2017-08-26 04:46:42,868 [main] INFO pages.LogInPage - LogIn has performed
+2017-08-26 04:46:42,906 [main] INFO new_topic.NewTopic - Home Page has opened
+2017-08-26 04:46:44,975 [main] INFO pages.HomePage - Group Page has opened
+2017-08-26 04:46:45,315 [main] INFO pages.group.GroupPage - Topic title has set
+2017-08-26 04:46:45,550 [main] INFO pages.group.GroupPage - Description has set
+2017-08-26 04:46:45,725 [main] INFO pages.group.GroupPage - Topic has created
+2017-08-26 04:47:58,975 [main] INFO setup.SetUp - Driver has initialized
+2017-08-26 04:48:00,303 [main] INFO setup.SetUp - Browser has maximized
+2017-08-26 04:48:01,700 [main] INFO SetUp - Log In page has opened
+2017-08-26 04:48:01,984 [main] INFO pages.LogInPage - Email has entered
+2017-08-26 04:48:02,077 [main] INFO pages.LogInPage - Password has entered
+2017-08-26 04:48:02,171 [main] INFO pages.LogInPage - LogIn has performed
+2017-08-26 04:48:02,206 [main] INFO new_topic.NewTopic - Home Page has opened
+2017-08-26 04:48:04,187 [main] INFO pages.HomePage - Group Page has opened
+2017-08-26 04:48:04,539 [main] INFO pages.group.GroupPage - Topic title has set
+2017-08-26 04:48:04,802 [main] INFO pages.group.GroupPage - Description has set
+2017-08-26 04:48:04,989 [main] INFO pages.group.GroupPage - Topic has created
+2017-08-26 04:48:10,130 [main] INFO pages.group.GroupPage - Enter the topic
+2017-08-26 04:48:15,167 [main] INFO pages.message.SendMessagePage - m object of MessageClass class has instanced
+2017-08-26 04:48:15,399 [main] INFO pages.message.SendMessagePage - Message for sending is: Test341526
+2017-08-26 04:48:15,562 [main] INFO pages.message.SendMessagePage - Message has sent
+2017-08-26 04:48:50,855 [main] INFO pages.HomePage - Arrow button has clicked
+2017-08-26 04:48:51,526 [main] INFO pages.HomePage - Log Out has performed
+2017-08-26 04:52:40,070 [main] INFO setup.SetUp - Driver has initialized
+2017-08-26 04:52:41,291 [main] INFO setup.SetUp - Browser has maximized
+2017-08-26 04:52:42,595 [main] INFO SetUp - Log In page has opened
+2017-08-26 04:52:42,836 [main] INFO pages.LogInPage - Email has entered
+2017-08-26 04:52:42,926 [main] INFO pages.LogInPage - Password has entered
+2017-08-26 04:52:43,022 [main] INFO pages.LogInPage - LogIn has performed
+2017-08-26 04:52:43,056 [main] INFO new_topic.NewTopic - Home Page has opened
+2017-08-26 04:52:44,974 [main] INFO pages.HomePage - Group Page has opened
+2017-08-26 04:52:45,309 [main] INFO pages.group.GroupPage - Topic title has set
+2017-08-26 04:52:45,556 [main] INFO pages.group.GroupPage - Description has set
+2017-08-26 04:52:45,719 [main] INFO pages.group.GroupPage - Topic has created
+2017-08-26 04:52:50,851 [main] INFO pages.group.GroupPage - Enter the topic
+2017-08-26 04:52:55,883 [main] INFO pages.message.SendMessagePage - m object of MessageClass class has instanced
+2017-08-26 04:52:56,080 [main] INFO pages.message.SendMessagePage - Message for sending is: Test325766
+2017-08-26 04:52:56,227 [main] INFO pages.message.SendMessagePage - Message has sent
+2017-08-26 04:53:02,244 [main] INFO pages.conclusion.ConclusionPage - Driver has switched to iframe
+2017-08-26 04:53:02,361 [main] INFO pages.conclusion.ConclusionPage - Driver is get backed to default content
+2017-08-26 04:53:07,522 [main] INFO pages.conclusion.ConclusionPage - Voting type has chosen
+2017-08-26 04:53:07,693 [main] INFO pages.conclusion.ConclusionPage - The conclusion has made
+2017-08-26 04:53:12,863 [main] INFO pages.dashboard.DashboardPage - Dash has clicked - Home
+2017-08-26 04:53:27,926 [main] INFO pages.dashboard.DashboardPage - msgFromWeb object of MessageClass class has instanced
+2017-08-26 04:53:28,063 [main] INFO pages.dashboard.DashboardPage - Message on Web is: Test325766
+2017-08-26 04:53:28,063 [main] INFO pages.dashboard.DashboardPage - Message has taken from web
+2017-08-26 04:53:28,066 [main] INFO new_topic.NewTopic - Assertion has finished
+2017-08-26 04:53:28,234 [main] INFO pages.HomePage - Arrow button has clicked
+2017-08-26 04:53:28,893 [main] INFO pages.HomePage - Log Out has performed
+2017-08-26 04:54:16,193 [main] INFO setup.SetUp - Driver has initialized
+2017-08-26 04:54:17,499 [main] INFO setup.SetUp - Browser has maximized
+2017-08-26 04:54:18,769 [main] INFO SetUp - Log In page has opened
+2017-08-26 04:54:19,002 [main] INFO pages.LogInPage - Email has entered
+2017-08-26 04:54:19,094 [main] INFO pages.LogInPage - Password has entered
+2017-08-26 04:54:19,183 [main] INFO pages.LogInPage - LogIn has performed
+2017-08-26 04:54:19,219 [main] INFO user_profile.UserProfile - Home Page has opened
+2017-08-26 04:54:20,747 [main] INFO pages.HomePage - Arrow button has clicked
+2017-08-26 04:54:21,506 [main] INFO pages.HomePage - User profile field has clicked
+2017-08-26 04:54:21,508 [main] INFO user_profile.UserProfile - Profile Page has opened
+2017-08-26 04:54:26,739 [main] INFO pages.profile.ProfilePage - Profile Image window has opened
+2017-08-26 04:54:38,094 [main] INFO pages.profile.ProfilePage - Picture has uploaded
+2017-08-26 04:54:39,406 [main] INFO pages.profile.ProfilePage - Edit profile button has clicked
+2017-08-26 04:54:39,840 [main] INFO pages.profile.ProfilePage - Today date has chosen
+2017-08-26 04:54:40,035 [main] INFO pages.profile.ProfilePage - Profile setup has performed
+2017-08-26 04:54:40,173 [main] INFO pages.HomePage - Arrow button has clicked
+2017-08-26 04:54:41,055 [main] INFO pages.HomePage - Log Out has performed

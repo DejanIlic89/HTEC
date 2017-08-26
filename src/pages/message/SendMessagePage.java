@@ -26,7 +26,7 @@ public class SendMessagePage extends Page {
     @FindBy(how = How.CLASS_NAME, using = "icon-send")
     private WebElement sendCommand;
     
-    @FindBy(how = How.CLASS_NAME, using = "button--no-radius")
+    @FindBy(how = How.CLASS_NAME, using = "conclusion-button")
     private static WebElement createConBtn;
 
     public MessageClass sendMessage(WebDriver driver, Logger log) {

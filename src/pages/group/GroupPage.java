@@ -28,7 +28,7 @@ public class GroupPage extends Page {
     @FindBy(how = How.TAG_NAME, using = "textarea")
     private WebElement addDescription;
     
-    @FindBy(how = How.CLASS_NAME, using = "button--primary")
+    @FindBy(how = How.CLASS_NAME, using = "ladda-label")
     private WebElement create;
     
     @FindBy(how = How.CLASS_NAME, using = "icon-chat-main")
@@ -48,7 +48,7 @@ public class GroupPage extends Page {
         sendText(driver, addDescription);
         log.info("Description has set");
         
-        WebElement createBtn = waitForVisibilityOfElement(driver, create);
+        WebElement createBtn = waitForElement(driver, create);
         createBtn.click();
         log.info("Topic has created");
         

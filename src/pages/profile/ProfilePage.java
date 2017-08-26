@@ -53,7 +53,7 @@ public class ProfilePage extends Page {
         log.info("Profile Image window has opened");
         
         File file = new File("pics\\2D2T.png");
-        chooseFile(driver, selectPic, file.getAbsolutePath());
+        chooseFileRobot(driver, selectPic, file.getAbsolutePath());
         
         clickOnElement(driver, upload);
         log.info("Picture has uploaded");

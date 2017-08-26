@@ -46,6 +46,11 @@ public class Page {
     }
     
     public void chooseFile(WebDriver driver, WebElement element, String filePath) {
+        WebElement upload = waitForElement(driver, element);
+        upload.sendKeys(filePath);
+    }
+    
+    public void chooseFileRobot(WebDriver driver, WebElement element, String filePath) {
         
         try {
             Thread.sleep(5000);
