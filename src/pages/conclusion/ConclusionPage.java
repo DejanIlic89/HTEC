@@ -57,7 +57,7 @@ public class ConclusionPage extends Page {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("document.getElementsByClassName(\"md-select-menu-container\")[2].getElementsByClassName(\"md-text\")[0].click()");
                 
-        log.info("Voting type has chosen");
+        log.info("Voting type has selected");
         
         WebElement propConclusion = waitForElement(driver, propose);
         propConclusion.click();
