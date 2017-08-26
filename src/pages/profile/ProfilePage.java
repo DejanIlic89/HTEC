@@ -52,7 +52,7 @@ public class ProfilePage extends Page {
         clickOnElement(driver, editPic);
         log.info("Profile Image window has opened");
         
-        File file = new File("pics\\Dejan.jpg");
+        File file = new File("pics\\2D2T.png");
         chooseFile(driver, selectPic, file.getAbsolutePath());
         
         clickOnElement(driver, upload);

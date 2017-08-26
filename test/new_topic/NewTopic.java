@@ -73,14 +73,10 @@ public class NewTopic {
         sendMessage = groupPage.createNewTopic(driver, log);
         
         msgSent = sendMessage.sendMessage(driver, log);
-        
-//        sledece dve linije koda su zakomentarisane jer
-//                nisam uspeo da uradim selektovanje Voting Type item-a, 
-//                molim Vas otkomentarisite ih i proverite kod u Debugger-u
 
-//        conclusion = SendMessagePage.createNewConclusion(driver, log);
-//        
-//        conclusion.createConclusion(driver, log);
+        conclusion = SendMessagePage.createNewConclusion(driver, log);
+        
+        conclusion.createConclusion(driver, log);
         
         msgWeb = DashboardPage.getMessageFromWeb(driver, log);
         

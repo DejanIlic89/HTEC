@@ -2,9 +2,11 @@ package pages.conclusion;
 
 import data.FillData;
 import java.util.List;
+import java.util.logging.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -23,6 +25,9 @@ public class ConclusionPage extends Page {
     
     @FindBy(how = How.CLASS_NAME, using = "options-panel__options")
     private WebElement group;
+	
+	@FindBy(how = How.CLASS_NAME, using = "ladda-label")
+    private WebElement propose;
     
     public void createConclusion(WebDriver driver, Logger log) {
         
@@ -43,15 +48,27 @@ public class ConclusionPage extends Page {
         List<WebElement> list = groupParent.findElements(By.className("voting-duration"));
         list.get(1).click(); 
         
-        WebElement cont = driver.findElement(By.tagName("md-select-menu"));
-        List<WebElement> items = cont.findElements(By.tagName("md-option"));
-        WebElement major = items.get(0);
-        
-        //sledeca akcija se ne izvrsava iz meni nepoznatog razloga
-        
-        major.click();
-        
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException ex) {
+            java.util.logging.Logger.getLogger(ConclusionPage.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("document.getElementsByClassName(\"md-select-menu-container\")[2].getElementsByClassName(\"md-text\")[0].click()");
+                
         log.info("Voting type has chosen");
+        
+        WebElement propConclusion = waitForElement(driver, propose);
+        propConclusion.click();
+        
+        log.info("The conclusion has made");
+        
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException ex) {
+            java.util.logging.Logger.getLogger(ConclusionPage.class.getName()).log(Level.SEVERE, null, ex);
+        }
         
     }
     
